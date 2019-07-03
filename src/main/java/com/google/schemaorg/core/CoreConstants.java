@@ -19,6 +19,8 @@ package com.google.schemaorg.core;
 /** Constants of type and property names in http://schema.org/. */
 public final class CoreConstants {
   public static final String NAMESPACE = "http://schema.org/";
+  
+  public static final String TYPE_FAQ_PAGE = NAMESPACE + "FAQPage";
 
   public static final String PROPERTY_ABOUT = NAMESPACE + "about";
 

@@ -1733,6 +1733,11 @@ public final class CoreFactory {
   public static QAPage.Builder newQAPageBuilder() {
     return new QAPageImpl.BuilderImpl();
   }
+  
+  // Added functionality for FAQPage
+  public static FAQPage.Builder newFAQPageBuilder() {
+	    return new FAQPageImpl.BuilderImpl();
+	  }
 
   public static QuantitativeValue.Builder newQuantitativeValueBuilder() {
     return new QuantitativeValueImpl.BuilderImpl();
